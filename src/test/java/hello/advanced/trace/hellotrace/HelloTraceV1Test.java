@@ -20,8 +20,4 @@ class HelloTraceV1Test {
         TraceStatus status = trace.begin("hello");
         trace.exception(status, new IllegalStateException());
     }
-
-    @Test
-    void exception() {
-    }
 }
